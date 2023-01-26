@@ -6,3 +6,4 @@ Neither hope nor fear.
 Delay is preferable to error.
   --Thomas Jefferson
   
+Quotes added
