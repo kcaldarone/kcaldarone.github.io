@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New User Registration</title>
+</head>
+<body>
+    <h1>New User Registration</h1>
+    <form action="submit-form.php" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="fName" name="fName" required minlength="1" maxlength="32" placeholder="John"><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required minlength="1" maxlength="32" placeholder="Applesed"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="12345" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="jappleseed@gmail.com"><br>
+
+        <label for="telephone">Telephone Number:</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="867-5309" pattern="[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="url">URL to a home page:</label>
+        <input type="url" id="url" name="url"><br>
+
+        <label for="birthMonth">Birth Month:</label>
+        <input type="month" id="birthMonth" name="birthMonth" placeholder="June"><br>
+
+        <label for="birthYear">Birth Year:</label>
+        <input type="number" id="birthYear" name="birthYear"  placeholder="1967" min="1900" max="2023"><br>
+
+        <label for="emailCheckbox">Can we email you?</label>
+        <input type="checkbox" id="emailCheckbox" name="emailCheckbox"><br>
+
+        <label for="textRadio">Can we text you?</label><br>
+        <input type="radio" id="yesText" name="textRadio" value="yes">
+        <label for="yesText">Yes</label><br>
+        <input type="radio" id="noText" name="textRadio" value="no">
+        <label for="noText">No</label><br>
+
+        <label for="productRadio">Do you like our product?</label><br>
+        <input type="radio" id="p1" name="productRadio" value="1">
+        <label for="product1">1 - I hate it...</label><br>
+        <input type="radio" id="p2" name="productRadio" value="2">
+        <label for="product2">2</label><br>
+        <input type="radio" id="p3" name="productRadio" value="3">
+        <label for="product3">3</label><br>
+        <input type="radio" id="p4" name="productRadio" value="4">
+        <label for="product4">4</label><br>
+        <input type="radio" id="p5" name="productRadio" value="5">
+        <label for="product5">5 - I love it!</label><br>
+
+        <input type="reset" value="Clear"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
